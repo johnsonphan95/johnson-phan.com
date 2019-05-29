@@ -1,0 +1,27 @@
+::selection {
+  background-color: #fe9700;
+  color: #fff;
+}
+::-moz-selection {
+  background-color: #fe9700;
+  color: #fff;
+}
+
+.color-theme {
+  color: #fe9700; 
+}
+
+.owl-dots .owl-dot.active,
+.bg-theme {
+  background: #fe9700;
+}
+
+.theme-border {
+  border-color: #fe9700;  
+}
+
+.btn.btn-theme {
+    background: #fe9700;
+    border-color: #fe9700;
+    color: #fff;
+}
