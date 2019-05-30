@@ -209,120 +209,141 @@
 
 	// Skill Icon Hover effects
 	// React
-	$('.skill-react-icon').mouseover(function () {
-		$('.skill-react-icon').removeClass('devicon-react-original');
+	$('.skill-react-icon').mouseleave(function () {
+		$('.skill-react-icon').removeClass('devicon-react-original-wordmark');
 		$('.skill-react-icon').addClass('devicon-react-original-wordmark colored');
 	})
-	$('.skill-react-icon').mouseleave(function () {
+	$('.skill-react-icon').mouseover(function () {
 		$('.skill-react-icon').removeClass('devicon-react-original-wordmark colored');
-		$('.skill-react-icon').addClass('devicon-react-original');
+		$('.skill-react-icon').addClass('devicon-react-original-wordmark');
 	})
 
 	// JavaScript
-	$('.skill-js-icon').mouseover(function () {
+	$('.skill-js-icon').mouseleave(function () {
 		$('.skill-js-icon').removeClass('devicon-javascript-plain');
 		$('.skill-js-icon').addClass('devicon-javascript-plain colored');
 	})
-	$('.skill-js-icon').mouseleave(function () {
+	$('.skill-js-icon').mouseover(function () {
 		$('.skill-js-icon').removeClass('devicon-javascript-plain colored');
 		$('.skill-js-icon').addClass('devicon-javascript-plain');
 	})
 
 	// Rails
-	$('.skill-rails-icon').mouseover(function () {
-		$('.skill-rails-icon').removeClass('devicon-rails-plain');
+	$('.skill-rails-icon').mouseleave(function () {
+		$('.skill-rails-icon').removeClass('devicon-rails-plain-wordmark');
 		$('.skill-rails-icon').addClass('devicon-rails-plain-wordmark colored');
 	})
-	$('.skill-rails-icon').mouseleave(function () {
+	$('.skill-rails-icon').mouseover(function () {
 		$('.skill-rails-icon').removeClass('devicon-rails-plain-wordmark colored');
-		$('.skill-rails-icon').addClass('devicon-rails-plain');
+		$('.skill-rails-icon').addClass('devicon-rails-plain-wordmark');
 	})
 
 	// Ruby
-	$('.skill-ruby-icon').mouseover(function () {
-		$('.skill-ruby-icon').removeClass('devicon-ruby-plain');
+	$('.skill-ruby-icon').mouseleave(function () {
+		$('.skill-ruby-icon').removeClass('devicon-ruby-plain-wordmark');
 		$('.skill-ruby-icon').addClass('devicon-ruby-plain-wordmark colored');
 	})
-	$('.skill-ruby-icon').mouseleave(function () {
+	$('.skill-ruby-icon').mouseover(function () {
 		$('.skill-ruby-icon').removeClass('devicon-ruby-plain-wordmark colored');
-		$('.skill-ruby-icon').addClass('devicon-ruby-plain');
+		$('.skill-ruby-icon').addClass('devicon-ruby-plain-wordmark');
 	})
 
 	// HTML5 & CSS3
-	$('.skill-html5-icon').mouseover(function () {
-		$('.skill-html5-icon').removeClass('devicon-html5-plain');
+	$('.skill-html5-icon').mouseleave(function () {
+		$('.skill-html5-icon').removeClass('devicon-html5-plain-wordmark');
 		$('.skill-html5-icon').addClass('devicon-html5-plain-wordmark colored');
 	})
-	$('.skill-html5-icon').mouseleave(function () {
+	$('.skill-html5-icon').mouseover(function () {
 		$('.skill-html5-icon').removeClass('devicon-html5-plain-wordmark colored');
-		$('.skill-html5-icon').addClass('devicon-html5-plain');
-	})
-	$('.skill-css3-icon').mouseover(function () {
-		$('.skill-css3-icon').removeClass('devicon-css3-plain');
-		$('.skill-css3-icon').addClass('devicon-css3-plain-wordmark colored');
+		$('.skill-html5-icon').addClass('devicon-html5-plain-wordmark');
 	})
 	$('.skill-css3-icon').mouseleave(function () {
+		$('.skill-css3-icon').removeClass('devicon-css3-plain-wordmark');
+		$('.skill-css3-icon').addClass('devicon-css3-plain-wordmark colored');
+	})
+	$('.skill-css3-icon').mouseover(function () {
 		$('.skill-css3-icon').removeClass('devicon-css3-plain-wordmark colored');
-		$('.skill-css3-icon').addClass('devicon-css3-plain');
+		$('.skill-css3-icon').addClass('devicon-css3-plain-wordmark');
 	})
 
 	// PostgreSQL
-	$('.skill-psql-icon').mouseover(function () {
-		$('.skill-psql-icon').removeClass('devicon-postgresql-plain');
+	$('.skill-psql-icon').mouseleave(function () {
+		$('.skill-psql-icon').removeClass('devicon-postgresql-plain-wordmark');
 		$('.skill-psql-icon').addClass('devicon-postgresql-plain-wordmark colored');
 	})
-	$('.skill-psql-icon').mouseleave(function () {
+	$('.skill-psql-icon').mouseover(function () {
 		$('.skill-psql-icon').removeClass('devicon-postgresql-plain-wordmark colored');
-		$('.skill-psql-icon').addClass('devicon-postgresql-plain');
+		$('.skill-psql-icon').addClass('devicon-postgresql-plain-wordmark');
 	})
 
 	// Mongo
-	$('.skill-mongo-icon').mouseover(function () {
-		$('.skill-mongo-icon').removeClass('devicon-mongodb-plain');
+	$('.skill-mongo-icon').mouseleave(function () {
+		$('.skill-mongo-icon').removeClass('devicon-mongodb-plain-wordmark');
 		$('.skill-mongo-icon').addClass('devicon-mongodb-plain-wordmark colored');
 	})
-	$('.skill-mongo-icon').mouseleave(function () {
+	$('.skill-mongo-icon').mouseover(function () {
 		$('.skill-mongo-icon').removeClass('devicon-mongodb-plain-wordmark colored');
-		$('.skill-mongo-icon').addClass('devicon-mongodb-plain');
+		$('.skill-mongo-icon').addClass('devicon-mongodb-plain-wordmark');
 	})
 
 	// Node
-	$('.skill-node-icon').mouseover(function () {
-		$('.skill-node-icon').removeClass('devicon-nodejs-plain');
+	$('.skill-node-icon').mouseleave(function () {
+		$('.skill-node-icon').removeClass('devicon-nodejs-plain-wordmark');
 		$('.skill-node-icon').addClass('devicon-nodejs-plain-wordmark colored');
 	})
-	$('.skill-node-icon').mouseleave(function () {
+	$('.skill-node-icon').mouseover(function () {
 		$('.skill-node-icon').removeClass('devicon-nodejs-plain-wordmark colored');
-		$('.skill-node-icon').addClass('devicon-nodejs-plain');
+		$('.skill-node-icon').addClass('devicon-nodejs-plain-wordmark');
 	})
 
-	// Node
-	$('.skill-git-icon').mouseover(function () {
-		$('.skill-git-icon').removeClass('devicon-git-plain');
+	// git
+	$('.skill-git-icon').mouseleave(function () {
+		$('.skill-git-icon').removeClass('devicon-git-plain-wordmark');
 		$('.skill-git-icon').addClass('devicon-git-plain-wordmark colored');
 	})
-	$('.skill-git-icon').mouseleave(function () {
+	$('.skill-git-icon').mouseover(function () {
 		$('.skill-git-icon').removeClass('devicon-git-plain-wordmark colored');
-		$('.skill-git-icon').addClass('devicon-git-plain');
+		$('.skill-git-icon').addClass('devicon-git-plain-wordmark');
 	})
 
-	// D3
-	$('.skill-d3-icon').mouseover(function () {
-		$('.skill-d3-icon').addClass('colored');
+	// express
+	$('.skill-express-icon').mouseleave(function () {
+		$('.skill-express-icon').removeClass('devicon-express-original-wordmark');
+		$('.skill-express-icon').addClass('devicon-express-original-wordmark colored');
 	})
-	$('.skill-d3-icon').mouseleave(function () {
-		$('.skill-d3-icon').removeClass('colored');
-	})
-
-	// Python
-	$('.skill-python-icon').mouseover(function () {
-		$('.skill-python-icon').removeClass('devicon-python-plain');
-		$('.skill-python-icon').addClass('devicon-python-plain-wordmark colored');
-	})
-	$('.skill-python-icon').mouseleave(function () {
-		$('.skill-python-icon').removeClass('devicon-python-plain-wordmark colored');
-		$('.skill-python-icon').addClass('devicon-python-plain');
+	$('.skill-express-icon').mouseover(function () {
+		$('.skill-express-icon').removeClass('devicon-express-original-wordmark colored');
+		$('.skill-express-icon').addClass('devicon-express-original-wordmark');
 	})
 
+	// aws
+	$('.skill-aws-icon').mouseleave(function () {
+		$('.skill-aws-icon').removeClass('devicon-amazonwebservices-plain-wordmark');
+		$('.skill-aws-icon').addClass('devicon-amazonwebservices-plain-wordmark colored');
+	})
+	$('.skill-aws-icon').mouseover(function () {
+		$('.skill-aws-icon').removeClass('devicon-amazonwebservices-plain-wordmark colored');
+		$('.skill-aws-icon').addClass('devicon-amazonwebservices-plain-wordmark');
+	})
+
+	//github
+	$('.skill-github-icon').mouseleave(function () {
+		$('.skill-github-icon').removeClass('devicon-github-plain-wordmark');
+		$('.skill-github-icon').addClass('devicon-github-plain-wordmark colored');
+	})
+	$('.skill-github-icon').mouseover(function () {
+		$('.skill-github-icon').removeClass('devicon-github-plain-wordmark colored');
+		$('.skill-github-icon').addClass('devicon-github-plain-wordmark');
+	})
+	
+	//heroku
+	$('.skill-heroku-icon').mouseleave(function () {
+		$('.skill-heroku-icon').removeClass('devicon-heroku-plain-wordmark');
+		$('.skill-heroku-icon').addClass('devicon-heroku-original-wordmark colored');
+	})
+	$('.skill-heroku-icon').mouseover(function () {
+		$('.skill-heroku-icon').removeClass('devicon-heroku-original-wordmark colored');
+		$('.skill-heroku-icon').addClass('devicon-heroku-plain-wordmark');
+	})
 
 })(jQuery);
