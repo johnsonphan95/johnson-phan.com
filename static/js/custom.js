@@ -50,7 +50,8 @@
 	        loop:true,
 	        strings: [
 	          'Developer.',
-						
+						'Something', 
+						'Something else'
 	        ],
 	        breakLines: false
     	});	
