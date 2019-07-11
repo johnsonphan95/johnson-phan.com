@@ -309,12 +309,12 @@
 
 	// express
 	$('.skill-express-icon').mouseleave(function () {
-		$('.skill-express-icon').removeClass('devicon-express-original-wordmark');
-		$('.skill-express-icon').addClass('devicon-express-original-wordmark colored');
+		$('.skill-express-icon').removeClass('devicon-express-original-wordmark colored');
+		$('.skill-express-icon').addClass('devicon-express-original colored');
 	})
 	$('.skill-express-icon').mouseover(function () {
-		$('.skill-express-icon').removeClass('devicon-express-original-wordmark colored');
-		$('.skill-express-icon').addClass('devicon-express-original-wordmark');
+		$('.skill-express-icon').removeClass('devicon-express-original colored');
+		$('.skill-express-icon').addClass('devicon-express-original-wordmark colored');
 	})
 
 	// aws
